@@ -11,10 +11,13 @@ const Header = () => {
       </Link>
       <div className="nav-buttons">
         <Link className="nav-button" to="/shop">
-          SHOP
+          Shop
         </Link>
         <Link className="nav-button" to="/contact">
-          CONTACT
+          Contact
+        </Link>
+        <Link className="nav-button" to="/register">
+          Login
         </Link>
       </div>
     </div>
