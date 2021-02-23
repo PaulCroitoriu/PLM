@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import MenuItem from "../menu-item/MenuItem"
 
 const Directory = () => {
-  const [sections, setSections] = useState([
+  const [sections] = useState([
     {
       id: 1,
       title: "Mountain bike",
